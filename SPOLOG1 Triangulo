@@ -1,0 +1,17 @@
+Triangulo
+Variáveis
+entrada de dados
+estrutura de decisão
+Estrutura aritmética (+,-,*,/)
+operadores lógicos (e, ou, não)
+operadores relacionais (>,<,=,>=,<=,<>)
+--------------------------------------------------------
+a>0 e b>0 e C>0
+a<b+c e b<a+c e c<a+b
+Tipos de triangulo 
+Equilátero
+a=b e b=c
+Isósceles
+a=b ou b=c ou a=c
+Escaleno
+a <> b e b<>c e a<>c

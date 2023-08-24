@@ -1,0 +1,31 @@
+Algoritmo "calculadoraSimples"
+var
+operador: caractere
+n1,n2: real
+Inicio
+Escreval("===================================")
+Escreval("     CALCULADORA SIMPLES           ")
+Escreval("===================================")
+Escreva ("Primeiro Valor: ")
+Leia (n1)
+Escreva ("operação [+,-,/,*]: ")
+Leia(operador)
+Escreva ("Segundo Valor: ")
+Leia (n2)
+Escolha(operador)
+Caso "+"
+Escreval(n1," + ",n2," = ",(n1+n2))
+Caso "-"
+Escreval(n1," - ",n2," = ",(n1-n2))
+Caso "*"
+Escreval(n1," * ",n2," = ",(n1*n2))
+Caso "/"
+se (n2<>0) entao
+Escreval(n1," / ",n2," = ",(n1/n2))
+senao
+Escreval ("Erro - Divisão por zero!!!!")
+fimse
+Outrocaso
+  Escreva ("****Operador Inválido***")
+FimEscolha
+Fimalgoritmo

@@ -1,0 +1,19 @@
+Algoritmo "EXIBIR NUMEROS DE 1 A 100"
+var
+n: real
+resposta: caractere
+Inicio
+Escreval("===================================")
+Escreval("     EXIBIR NUMEROS DE 1 A 100     ")
+Escreval("===================================")
+resposta <-"s"
+Enquanto (resposta = "s") ou (resposta = "S") faça
+n<-1
+Enquanto (n<=100) faça
+Escreval(n:5:1)
+n <- n+1
+Fimenquanto
+Escreva ("Digite 's' para repetir: ")
+Leia (resposta)
+Fimenquanto
+Fimalgoritmo

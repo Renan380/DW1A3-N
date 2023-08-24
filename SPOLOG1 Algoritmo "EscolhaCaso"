@@ -1,0 +1,19 @@
+Algoritmo "EscolhaCaso"
+var
+SEXO: caractere
+Inicio
+Escreva("Informe o sexo: ")
+Leia (SEXO)
+Escolha(SEXO)
+Caso "M"
+Escreva ("Masculino")
+Caso "m"
+Escreva ("Masculino")
+Caso "F"
+Escreva ("Feminino")
+Caso "f"
+Escreva ("Feminino")
+Outrocaso
+Escreva ("Sexo Inválido")
+FimEscolha
+Fimalgoritmo
